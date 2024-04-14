@@ -24,7 +24,7 @@ Pasos para inicializar proyecto seismological_frontend:
 
 Pasos para inicializar proyecto seismological_api:
 
-	- cd sesimological_api
+	- cd seismological_api
 	- bundle install
  	- rails db:create
  	- rails db:migrate
@@ -33,7 +33,7 @@ Pasos para inicializar proyecto seismological_api:
 
 Usabilidad:
 
-	- En el proyecto sesimological_api deberá primero crear los registros iniciales obtenidos de una API externa. Para hacer esto debe ejecutar lo siguiente:
+	- En el proyecto seismological_api deberá primero crear los registros iniciales obtenidos de una API externa. Para hacer esto debe ejecutar lo siguiente:
 		- bin/rails seismological_data:get_save_data
 	- Ingresar a http://localhost:5173
 	- Seleccionar el tipo de medida por la cual quiere filtrar los resultados (measure).
