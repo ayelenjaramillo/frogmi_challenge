@@ -15,19 +15,22 @@ cd frogmi_challenge
 
 Aquí verá dos carpetas, una es el API desarrollado en Ruby on Rails y la otra el frontend desarrollado en reactJS.
 
-Pasos para inicializar proyecto seismological_frontend:
+Pasos para inicializar proyecto seismological_frontend: 
+ 
 	- cd seismological_frontend
 	- npm install
 	- npm run dev
 	- usar el puerto 5173 (http://localhost:5173) ya que es el puerto autorizado en sesimological_api
 
 Pasos para inicializar proyecto sesimological_api:
+
 	- cd sesimological_api
 	- bundle install
 	- rails s -p 3000
 	- usar el puerto 3000 ya que seismological_frontend llamará al API en http://localhost:3000
 
 Usabilidad:
+
 	- En el proyecto sesimological_api deberá primero crear los registros iniciales obtenidos de una API externa. Para hacer esto debe ejecutar lo siguiente:
 		- bin/rails seismological_data:get_save_data
 	- Ingresar a http://localhost:5173
