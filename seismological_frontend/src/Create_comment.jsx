@@ -27,10 +27,10 @@ const CreateComment = () => {
         console.log('Comentario creado exitosamente');
       } else {
        
-        console.error('Error al crear el comentario: veeeeeeeer', response.statusText);
+        console.error('Error', response.statusText);
       } setCommentSent(true);
     } catch (error) {
-      console.error('Error de red:', error);
+      console.error('Error:', error);
     }
   };
 
@@ -49,7 +49,8 @@ const CreateComment = () => {
                   <div className='test'>
                     <form className="form_container_comment" onSubmit={handleSubmit}>
                         <label className="form_label">Write here your comment</label><br/>
-                        <textarea
+                        <textarea 
+                            required
                             className="textarea_form"
                             value={text}
                             onChange={(e) => setText(e.target.value)}
