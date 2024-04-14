@@ -20,12 +20,14 @@ Pasos para inicializar proyecto seismological_frontend:
 	- cd seismological_frontend
 	- npm install
 	- npm run dev
-	- usar el puerto 5173 (http://localhost:5173) ya que es el puerto autorizado en sesimological_api
+	- usar el puerto 5173 (http://localhost:5173) ya que es el puerto autorizado en seismological_api
 
-Pasos para inicializar proyecto sesimological_api:
+Pasos para inicializar proyecto seismological_api:
 
 	- cd sesimological_api
 	- bundle install
+ 	- rails db:create
+ 	- rails db:migrate
 	- rails s -p 3000
 	- usar el puerto 3000 ya que seismological_frontend llamará al API en http://localhost:3000
 
