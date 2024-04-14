@@ -1,0 +1,63 @@
+.general{
+    display:inline-block;
+    width: 90%;    
+}
+.form_container_comment{
+    font-size: 20px;
+    background-color: #51bc6e;   
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+ 
+}
+.form_label{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_form{
+    padding: 2% 10%;
+    margin-top: 5%;
+    background-color: #ffff;
+    border-style: none;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+.textarea_form{
+    width: 90%;
+    /* padding: 10% 0; */
+    margin-left: 5%;
+    border-style: none;
+    height: 200px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+.general_container_successmessage{
+    background-color: #51bc6e;
+    color: #FFFF;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10% 0;
+    padding-left: 30%;
+    margin-left: 10%;
+}
+.button_return_hp{
+    background-color: #FFFF;
+    border-style: none;
+    width: 37%;
+    padding: 2% 0;
+    font-family: "Playfair Display", serif;
+}

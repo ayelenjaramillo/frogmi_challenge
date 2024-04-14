@@ -1,0 +1,33 @@
+.table_results{
+  margin-top: 5%;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  width: 90%;
+  margin-left: 5%;
+}
+.container_searching{
+  color: #51bc6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table_head{
+  background-color: #51bc6e;
+  color: #f8f7f2;
+}
+.body_table{
+  background-color: #d8e8dc;
+  border-color: #51bc6e;
+  
+}
+.row_table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment_button{
+  background-color: #FFFF;
+  padding: 5% 3%;
+  border: none;
+}
+

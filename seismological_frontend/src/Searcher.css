@@ -1,0 +1,36 @@
+.formulario{
+  padding-left: 5%;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #51bc6e;
+  color: #f8f7f2;
+  width: 95%;
+  padding: 2.5%;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 2%;
+}
+.select_form{
+  padding: 3% 12%;
+  border-style: none;
+  margin-top: 5%;
+  font-size: 18px;
+}
+.input_send{
+  padding: 3% 12%;
+  border-style: none;
+  margin-left:1% ;
+  margin-top: 5%;
+  font-size: 18px;
+}
+.label_form{
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-style: oblique;
+}
+.morethan{
+  font-size: 12px;
+}
