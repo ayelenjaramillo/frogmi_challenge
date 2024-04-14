@@ -47,10 +47,9 @@ class FeaturesController < ApplicationController
   end
 
   def create_comment
-
     feature = Feature.find(params["comment"]["id"])
     
-    body = params["comment"]["body"]
+    body = params["comment"]["body"] if params["comment"].present?
     comment = Comment.new(feature: feature, body: body)
 
     if comment.save
